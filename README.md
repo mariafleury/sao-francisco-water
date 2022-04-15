@@ -1,6 +1,6 @@
 # sao-francisco-water
 ### accessing_netCDF_v2.ipynb
-Reads in GRACE JPL files, which are in netCDF format, as an _xarray_ and uses shapefiles to clip the data to the São Francisco River basin and sub-basins, using the _regionmask_ package. Introduces geospatial averages, and compares GRACE's total water storage data to MapBiomas' water surface area time-series. Some data files used in this notebook (and an updated version of the notebook) are included in the folder _water/geospatial._ NOT included is the GRACE JPL file (as it is too large), which can be download through the NASA PO.DAAC server.
+Reads in GRACE JPL files, which are in netCDF format, as an _xarray_ and uses shapefiles to clip the data to the São Francisco River basin and sub-basins, using the _regionmask_ package. Introduces geospatial averages, and compares GRACE's total water storage data to MapBiomas' water surface area time-series. Some data files used in this notebook (and an updated version of the notebook) are included in the folder _water/geospatial._ NOT included is the GRACE JPL file (as it is too large). GRACE JPL Mascons can be download through the NASA PO.DAAC server.
 ### agriculture.ipynb
 Reads MapBiomas' agricultural land-use time-series data and plots the breakdown in bar charts. Data files used in this notebook (and an updated version of the notebook) are included in the folder _agriculture_.
 ### climate.ipynb
